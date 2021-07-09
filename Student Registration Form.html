@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            #form1
+            { 
+                width: 60%; 
+                text-align: center; 
+                margin-left: 250px; 
+                padding: 0%; 
+                border-style: double
+            }
+            #gender1
+            {
+                margin-left: 150px ;
+            }
+            #gender2
+            {
+                margin-left: 3px;
+            }
+            #gender3
+            {
+                margin-left: 3px;
+            }
+            #DOB1
+            {
+                margin-left: 109px;
+                width: 40px;
+            }
+            #DOB2
+            {
+                margin-right: 1.5px;
+                width: 40px;
+            }
+            #DOB3
+            {
+                width: 40px;
+            }
+            #address
+            {
+                margin-left: 142px;
+                width: 355px;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(0, 255, 255);">
+        <!--Form Heading-->
+        <div id="form1">
+        <h1>Student Registration Form </h1>
+        </div>
+        <br>
+        <!--Form Start-->
+        <form>
+            <label style="margin-left: 250px;">Student's Name:</label>
+            <input type="text" placeholder="Enter your Student's Name" style="margin-left: 100px; width: 350px;">
+            <br>
+            <label style="margin-left: 250px;">Father's Name:</label>
+            <input type="text" style="margin-left: 108px; width: 350px; margin-top: 1%;">
+            <br>
+            <label style="margin-left: 250px;">Mother's Name:</label>
+            <input type="text" style="margin-left: 102px; width: 350px; margin-top: 1%;">
+            <br>
+            <label style="margin-left: 250px;"> Phone Number:</label>
+            <input type="tel" placeholder="03*********" style="margin-left: 103px; width: 350px; margin-top: 1%;">
+            <br>
+            <label style="margin-left: 250px;"> E-mail:</label>
+            <input type="email" placeholder="sample@example.com" required style="margin-left: 155px; width: 350px; margin-top: 1%;">
+            <br><br>
+            <!--Gender-->
+            <label style="margin-left: 250px;">Gender:</label>
+            <input type="radio" name="Gender" id="gender1"> Male
+            <input type="radio" name="Gender" id="gender2"> Female
+            <input type="radio" name="Gender" id="gender3"> Other
+            <br><br>
+            <!--Date Of Birth-->
+            <label style="margin-left: 250px;">Date Of Birth:</label>
+            <input type="tel" id="DOB1"> - 
+            <input type="tel" id="DOB2"> -
+            <input type="tel"id="DOB3">(dd/mm/yyyy)
+            <br><br>
+            <label style="margin-left: 250px;">Address:</label>
+            <input type="text" placeholder="Street:-   House:-   Road:-" id="address"> 
+            <br><br>
+            <!--Blood Group-->
+            <label style="margin-left: 250px;">Blood Group:</label>
+            <select style="margin-left: 108px;">
+                <option>Select</option>
+                <option>A+</option>
+                <option>B+</option>
+                <option>AB+</option>
+                <option>O+</option>
+                <option>O-</option>
+            </select>
+            <br><br>
+            <!--Department-->
+            <label style="margin-left: 250px;">Department:</label>
+            <input type="checkbox" style="margin-left: 116px ;"> CSE
+            <input type="checkbox"> EEE
+            <input type="checkbox"> BBA
+            <br><br>
+            <!--Course-->
+            <label style="margin-left: 250px;">Course:</label>
+            <input type="checkbox" style="margin-left: 146px;">C
+            <input type="checkbox">C++
+            <input type="checkbox">Java
+            <input type="checkbox">AI
+            <input type="checkbox">Machine Learning
+            <input type="checkbox">Robotics
+            <br><br>
+            <label style="margin-left: 250px;">Photo:</label>
+            <input type="file" style="margin-left: 152px;">
+            <br><br>
+            <input type="submit" style="margin-left: 350px;">
+            <input type="reset" style="margin-left: 5px;">
+         </form>
+        </body>
+</html>
